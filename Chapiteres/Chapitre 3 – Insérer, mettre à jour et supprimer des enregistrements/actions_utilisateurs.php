@@ -11,8 +11,8 @@ try {
 
     $stmt = $pdo->prepare("INSERT into users (user_name, email) values (:user_name, :email)");
     $stmt->execute([
-        'user_name' => 'Oussama',
-        'email' => 'oussama@email.com'
+        'user_name' => 'Yahia',
+        'email' => 'yahia@email.com'
     ]);
     echo "user ajouté avec succés.";
 
@@ -24,8 +24,8 @@ echo "<br>";
     $stmt = $pdo->prepare("UPDATE users set user_name = :user_name, email = :email where id_user = :id_user");
 
     $stmt->execute([
-        'user_name' => 'Hassanee',
-        'email' => 'hassanee@gmail.com',
+        'user_name' => 'oussama',
+        'email' => 'oussama@gmail.com',
         'id_user' => 2
     ]);
     echo "user mis à jour";
