@@ -1,0 +1,45 @@
+
+
+
+
+
+>>>In this chapter, I learned how to protect my database
+from SQL injection attacks.
+
+
+
+important points:
+
+>>.why should we use prepared statements?
+if we insert variables directly insede an SQL query,
+hackers can manipulate the query and damage the 
+database.
+
+
+>>.Basic steps to use them:
+First, use prepare() to create the SQL 
+query with placeholders like :name.
+Then use execute() or bindParam()
+ to send the real values to the query.
+
+
+>>.Difference between execute() and bindParam():
+
+execute(['name' => $name]) is the simplest and most
+commonly used method.
+
+bindParam(':name', $name) is useful when we want to link a variable and
+possibly change its value before executing the query.
+
+
+>:>Conclusion:
+To keep applications secure,
+ we should avoid putting variables directly inside $pdo->query() 
+ and instead always use prepared statements with prepare().
+
+
+
+
+
+
+

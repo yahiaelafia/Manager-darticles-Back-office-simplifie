@@ -1,0 +1,34 @@
+
+
+
+
+>>>in this chapter, I learned how to manage user data 
+safely in order to protect my application.
+
+
+>Clean and validate data:
+
+- Use trim() to remove unnecessary spaces.
+- Use htmlspecialchars() to prevent XSS 
+attacks by converting HTML tags into safe text.
+- Use filter_var() to verify that an email address is valid.
+
+>Manage errors securely:
+
+- Do not display technical error messages to users.
+- Instead, store the real error in a log file and
+ show a simple message like “An error occurred”.
+
+> Restrict database permissions:
+
+- The database user should only have the permissions
+ required (for example SELECT or INSERT).
+
+
+>>>/ Conclusion:
+Application security requires validating user
+ input and avoiding the use of unchecked data.
+
+
+
+
