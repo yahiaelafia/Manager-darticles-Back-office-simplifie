@@ -40,7 +40,7 @@ echo "<br>";
 
     $stmt = $pdo->prepare("DELETE from users where id_user = :id_user");
 
-    $stmt->execute(['id_user' => 12]);
+    $stmt->execute(['id_user' => 2]);
 
     echo "user supprimé.";
 
