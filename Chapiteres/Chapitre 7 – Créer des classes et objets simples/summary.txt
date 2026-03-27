@@ -1,0 +1,32 @@
+
+
+>>> in this chapter, I learned the basics of classes 
+and objects in PHP.
+
+>first, I learned how to create a class using the 
+class keyword.
+
+>>for example:
+ we can create a class called Article.
+inside the class, we can add properties using public,
+protected, or private.
+
+>then, I learned that a class can contain methods.
+Methods are functions that are written inside the 
+class to do some actions, like a method afficher()
+that displays information.
+
+>I also learned how to create an object from a class
+using the new keyword.
+
+>>For example:
+$article1 = new Article("Introduction à PHP",
+"PHP est un langage de script côté serveur.");
+
+After creating the object, we can access its properties 
+or use its methods with the -> operator, like:
+$article1->afficher();
+
+
+>>>Conclusion:
+Classes help us organize the code and make it easier to work with data and functions.

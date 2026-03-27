@@ -1,0 +1,36 @@
+
+
+
+
+>>> the primaty goal of this chapter is learning how 
+to protect your class data to ensure the system
+always functions correctly.
+
+- data encapsulation:
+
+> use the private keyword for properties.
+> this prevents direct access 
+or accidental modification from outside the class.
+
+-getters and setters:
+
+> getter : provide read access to a private property.
+> setter : provide write access to a private property.
+
+- validation and sanitization in setters:
+
+> setters ate the ideal place to chech data before it is stored.
+
+> Examples :
+
+_ strlen : to ensure minimum length.
+_ htmlspecialchars : to prevent xss and ensure data sanitization.
+
+
+conclusion :
+
+encapsulation isn't just about security it's about building robust 
+and reliable classes that protect their internal state.
+
+
+

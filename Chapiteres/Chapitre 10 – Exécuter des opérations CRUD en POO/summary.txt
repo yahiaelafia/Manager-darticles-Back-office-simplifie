@@ -1,0 +1,31 @@
+>>>Objective: Learning how to structure CRUD operations 
+in PHP using OOP for clean and reusable code.
+
+- CRUD Logic:
+
+Action: Grouping create(), read(), update(), and delete() into Class methods.
+
+Impact: Makes the code modular and easy to maintain.
+
+- Database Encapsulation:
+
+Action: Creating a standalone Database.php class for PDO connection.
+
+Benefit: Centralizes the connection and avoids repeating code.
+
+- Separation of Concerns:
+
+Structure: Dividing the project into Connection (Database),
+Logic (User), and Execution (Index).
+
+Next Step: This is the foundation of the MVC architecture.
+
+- Secure Execution:
+
+Method: Using Prepared Statements inside the class.
+
+Result: Protecting the system from SQL Injection.
+
+Conclusion:
+OOP CRUD is about building a scalable architecture 
+where each object manages its own data lifecycle safely.

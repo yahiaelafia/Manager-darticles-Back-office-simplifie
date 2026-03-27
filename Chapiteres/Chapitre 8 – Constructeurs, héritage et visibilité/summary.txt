@@ -1,0 +1,33 @@
+
+
+
+
+>>> in this chapter, I learned how to extend classes 
+and control data access.
+
+- key things to remember:
+
+>>use nheritance:
+
+>use the 'extends' keyword to create a child 
+class from a parent (exemple, BlogArticle extends Article).
+-inherit properties and methods automatically.
+
+>>Master Visibility:
+
+> public : Accessible from anywhere.
+> protected : Accessible within the class and its children.
+> private : Accessible only within the defining class.
+
+>>Constructors and parent methods: 
+
+> use  _construct() to initialize objects.
+> use parent::__construct() to call the parent class's constructor.
+> use parent::method() to call a parent method within an override.
+
+
+>>> conclusion:
+
+inheritance allows us to reuse code efficiently, 
+while visiblity modifiers provide true 
+encapsulation.
