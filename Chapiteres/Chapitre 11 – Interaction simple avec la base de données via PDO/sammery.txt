@@ -1,0 +1,32 @@
+
+
+>>> in this chapter, i learned how to safely run simple queries using PDO.
+
+
+key things to remember :
+
+
+> : connectio :
+
+- create a Database class for reusable connetions .
+- keep PDO::ERRMODE_EXCEPTION enabled to quickly spot errors.
+
+> : Query and fetch: 
+
+- Use query() for a SELECT that doesnt use variables .
+- Use fetchAll to fetch every row returned as an array.
+
+> : Prepared Statements :
+
+- Always use prepare() combined with execute() when dealing with
+user variables.
+
+- This secures INSERT , UPDATE , 
+and DELETE requests against SQL injections.
+
+
+>>> conclusion : 
+
+
+With PDO interacting with the database is fast, 
+organized , and secure
